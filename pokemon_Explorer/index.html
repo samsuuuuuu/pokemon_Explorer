@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-shell">
+        <header class="hero">
+            <span class="eyebrow">Pocket Guide</span>
+            <h1>pokemon Explorer</h1>
+            <p>Discover your favorite creature with a quick search and its key stats.</p>
+        </header>
+
+        <main class="search-panel">
+            <label class="sr-only" for="pokemonInput">Search pokemon</label>
+            <input type="text" id="pokemonInput" placeholder="Enter a pokemon name or number" aria-label="pokemon search">
+            <button id="searchBtn" type="button">Search</button>
+        </main>
+
+        <section id="result" class="result-panel" aria-live="polite"></section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
